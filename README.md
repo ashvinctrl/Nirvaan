@@ -1,50 +1,62 @@
-# React + TypeScript + Vite
+Nirvaan
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+A cutting-edge AI-powered mental health companion designed to offer personalized support, well-being tracking, and real-time insights.
+🚀 Features
 
-Currently, two official plugins are available:
+    AI-Driven Conversations: Interact with a virtual mental health assistant that adapts to your needs.
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+    Mood Tracking: Record and visualize your daily moods for long-term mental health monitoring.
 
-## Expanding the ESLint configuration
+    Personalized Recommendations: Receive tailored self-care tips, exercises, and activities.
 
-If you are developing a production application, we recommend updating the configuration to enable type aware lint rules:
+    Secure & Private: Designed with user privacy and data protection in mind.
 
-- Configure the top-level `parserOptions` property like this:
+💻 Technologies & Languages
 
-```js
-export default tseslint.config({
-  languageOptions: {
-    // other options...
-    parserOptions: {
-      project: ['./tsconfig.node.json', './tsconfig.app.json'],
-      tsconfigRootDir: import.meta.dirname,
-    },
-  },
-})
-```
+    Frontend: React.js
 
-- Replace `tseslint.configs.recommended` to `tseslint.configs.recommendedTypeChecked` or `tseslint.configs.strictTypeChecked`
-- Optionally add `...tseslint.configs.stylisticTypeChecked`
-- Install [eslint-plugin-react](https://github.com/jsx-eslint/eslint-plugin-react) and update the config:
+    Backend: Node.js, Express.js
 
-```js
-// eslint.config.js
-import react from 'eslint-plugin-react'
+    AI/ML: Python, TensorFlow (or other ML libraries)
 
-export default tseslint.config({
-  // Set the react version
-  settings: { react: { version: '18.3' } },
-  plugins: {
-    // Add the react plugin
-    react,
-  },
-  rules: {
-    // other rules...
-    // Enable its recommended rules
-    ...react.configs.recommended.rules,
-    ...react.configs['jsx-runtime'].rules,
-  },
-})
-```
+    Database: MongoDB
+
+    Containerization: Docker
+
+🏗️ Setup
+
+Clone the repo:
+
+git clone https://github.com/ashvinctrl/Nirvaan.git
+cd Nirvaan
+
+Install dependencies:
+
+npm install
+
+Run the development server:
+
+npm start
+
+🌟 Achievements
+
+✅ Created an intelligent mental health companion tailored for real-world use cases.
+✅ Integrated AI models to provide dynamic, personalized support.
+✅ Deployed containerized applications for seamless scaling and deployment.
+🤝 Contributing
+
+We welcome contributions! Feel free to:
+
+    Fork the repo
+
+    Create a new branch (git checkout -b feature/your-feature)
+
+    Commit your changes (git commit -m 'Add new feature')
+
+    Push to the branch (git push origin feature/your-feature)
+
+    Open a pull request
+
+📜 License
+
+MIT License. See LICENSE for details.
